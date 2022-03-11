@@ -36,3 +36,12 @@ open_3.addEventListener('click', () =>{
 close_3.addEventListener('click', () =>{
     modal_container_3.classList.remove('show');
 });
+
+/* Navegation menu */
+
+const Toggle = document.querySelector(".nav-toggle");
+const Menu = document.querySelector(".nav-menu");
+
+Toggle.addEventListener("click", () => {
+    Menu.classList.toggle("nav-menu_visible");
+});

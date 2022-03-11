@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,300&display=swap');
 
 * {
     margin: 0;
@@ -39,8 +40,10 @@ header{
 
 .nav-menu {
     display: flex;
-    margin: 0 auto;
+    float: right;
     list-style: none;
+
+    left: 100%;
 }
 
 .nav-menu-item{
@@ -51,24 +54,26 @@ header{
     width: max-content; 
 }
 
-.nav-link:hover {
+.nav-menu-link:hover,
+.nav-menu-link_active {
     background: linear-gradient(90deg, rgb(10, 0, 190) 0%, rgb(139, 138, 138) 28%, rgb(1, 177, 212) 100%);
     transition: 0.5s;
 }
 
-.logo__1, .logo__2 {
+.logo__1{
    font-weight: bold;
    padding: 5px 40px;
    line-height: 80px;
 }
 
-.toggle{
-    color:rgb(255, 255, 255);
+.nav-toggle{
+    color: rgb(0, 0, 0);
     background: none;
     border: none;
     font-size: 30px;
-    padding: 0 20px;
-    line-height: 60px;
+    padding: 20px 20px; 
+    float: right;
+    cursor: pointer;
     
     display: none;
 }
@@ -324,27 +329,30 @@ header{
 
     header{
         background: none;
-        height: 60px;
+        height: 65px;
     }
 
-    .logo__1, .logo__2{
+    .logo__1{
         font-size: 5px;
         padding: 0 5px;
     }
 
     .nav-menu{
-        flex-direction: column;
-        align-items: center;
-        margin-right: 20px;
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
-        position: fixed;
-        left: 0;
-        top: 65px;
-        width: 100%;
-        padding: 20px 0;
-
-        height: calc(100% - 60px);
-        overflow-y: auto;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 20px;
+       background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+       position: fixed;
+       left: 0;
+       top: 65px;
+       width: 100%;
+       padding: 20px 0;
+       height: calc(100% - 60px);
+       overflow-y: auto;
+       
+       
+       left: 100%;
+       transition: left 0.3s;
     }
 
 
@@ -353,8 +361,19 @@ header{
         line-height: 70px;
     }
 
-    .nav-menu-link:hover{
+    .nav-menu-link:hover,
+    .nav-menu-link_active{
         background: none;
         color: #fff;
     }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-menu_visible{
+        left: 0;
+    }
+
 }
+
