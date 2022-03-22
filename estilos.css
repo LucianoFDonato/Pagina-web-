@@ -322,6 +322,7 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 60px 0;
     gap: 20em;
+    margin-top: 200px;
 }
 
 
