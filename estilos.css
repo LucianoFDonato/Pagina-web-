@@ -344,6 +344,28 @@ header{
     margin-top: 170px;
 }
 
+/* Transition */
+
+.loading-screen{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: rgb(1, 121, 145);
+    width: 0%;
+    height: 100%;
+}
+
+.load-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
 
 
 
@@ -369,7 +391,7 @@ header{
         height: 65px;
     }
 
-    .logo__1{
+    .logo-nav{
         font-size: 5px;
         padding: 0 5px;
     }
