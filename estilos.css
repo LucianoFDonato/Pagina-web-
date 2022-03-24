@@ -13,13 +13,14 @@ body {
 
 /* Navegation */
 
-header{
+header {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     height: 80px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .nav {
@@ -30,7 +31,7 @@ header{
     margin: 0 auto;
 }
 
-.nav-link{
+.nav-link {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 8px 12px;
@@ -45,12 +46,12 @@ header{
     left: 100%;
 }
 
-.nav-menu-item{
+.nav-menu-item {
     font-size: 15px;
     margin: 0 10px;
     line-height: 80px;
     text-transform: uppercase;
-    width: max-content; 
+    width: max-content;
 }
 
 .nav-menu-link:hover,
@@ -60,21 +61,21 @@ header{
     transition: 0.5s;
 }
 
-.logo__1{
-   font-weight: bold;
-   padding: 5px 40px;
-   line-height: 80px;
+.logo__1 {
+    font-weight: bold;
+    padding: 5px 40px;
+    line-height: 80px;
 }
 
-.nav-toggle{
+.nav-toggle {
     color: rgb(0, 0, 0);
     background: none;
     border: none;
     font-size: 30px;
-    padding: 20px 20px; 
+    padding: 20px 20px;
     float: right;
     cursor: pointer;
-    
+
     display: none;
 }
 
@@ -89,7 +90,7 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 60px 0;
     gap: 2em;
-    
+
 }
 
 .card {
@@ -157,7 +158,7 @@ header{
     left: 0;
     height: 100vh;
     width: 100%;
-    
+
 
 }
 
@@ -260,6 +261,8 @@ header{
     margin-top: auto;
 }
 
+
+
 /* Galeria */
 
 .galeria {
@@ -316,7 +319,7 @@ header{
 
 /* Contacto */
 
-.mapa-informacion{
+.mapa-informacion {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -328,16 +331,16 @@ header{
 }
 
 
-.mapa{
+.mapa {
     width: 600px;
     height: 450px;
 }
 
-.informacion{
+.informacion {
     float: right;
 }
 
-.informacion img{
+.informacion img {
     width: 70px;
     height: 70px;
     padding: 15px;
@@ -346,7 +349,7 @@ header{
 
 /* Transition */
 
-.loading-screen{
+.loading-screen {
     position: relative;
     padding-left: 0;
     padding-right: 0;
@@ -356,7 +359,7 @@ header{
     height: 100%;
 }
 
-.load-container{
+.load-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -373,65 +376,67 @@ header{
 /* Responsive */
 
 @media screen and (max-width: 768px) {
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
     }
+
     .galeria {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        margin-top: 40px;
     }
 
-    body{
+    body {
         padding: 90px 20px 0;
     }
 
-    header{
-        background: none;
-        height: 65px;
+    header {
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+        height: 73px;
     }
 
-    .logo-nav{
+    .logo-nav {
         font-size: 5px;
         padding: 0 5px;
     }
 
-    .nav-menu{
-       flex-direction: column;
-       align-items: center;
-       margin-right: 20px;
-       background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
-       position: fixed;
-       left: 0;
-       top: 65px;
-       width: 100%;
-       padding: 20px 0;
-       height: calc(100% - 60px);
-       overflow-y: auto;
-       
-       
-       left: 100%;
-       transition: left 0.3s;
+    .nav-menu {
+        flex-direction: row;
+        align-items: center;
+        margin-right: 20px;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+        position: fixed;
+        left: 0;
+        top: 73px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+
+        left: 100%;
+        transition: left 0.3s;
     }
 
 
 
-    .nav-menu-item{
-        line-height: 70px;
+    .nav-menu-item {
+        line-height: 100%;
+        
     }
 
     .nav-menu-link:hover,
-    .nav-menu-link_active{
+    .nav-menu-link_active {
         background: none;
         color: rgb(255, 255, 255);
     }
 
-    .nav-toggle{
+    .nav-toggle {
         display: block;
     }
 
-    .nav-menu_visible{
+    .nav-menu_visible {
         left: 0;
     }
 }
-
