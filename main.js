@@ -53,8 +53,8 @@ window.sr = ScrollReveal();
 
 sr.reveal('.nav', {
     duration: 4000,
-    origin: 'bottom',
-    distance: '-100px',
+    origin: 'right',
+    distance: '-400px',
 });
 
 
