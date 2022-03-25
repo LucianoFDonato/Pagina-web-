@@ -315,34 +315,12 @@ header {
     height: 110px;
 }
 
-/* Contacto */
+/**** contacto *****/
 
-.mapa-informacion {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 60px 0;
-    gap: 20em;
-    margin-top: 200px;
-}
+.map{
+    border-radius: 1em;
+    height: 300px;
 
-
-.mapa {
-    width: 600px;
-    height: 450px;
-}
-
-.informacion {
-    float: right;
-}
-
-.informacion img {
-    width: 70px;
-    height: 70px;
-    padding: 15px;
-    margin-top: 170px;
 }
 
 /* Transition */
@@ -369,6 +347,77 @@ header {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************************************************************/
 
 
 /* Responsive */
@@ -421,7 +470,7 @@ header {
 
     .nav-menu-item {
         line-height: 100%;
-        
+
     }
 
     .nav-menu-link:hover,

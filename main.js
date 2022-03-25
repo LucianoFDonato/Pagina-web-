@@ -51,13 +51,6 @@ Toggle.addEventListener("click", () => {
 
 window.sr = ScrollReveal();
 
-sr.reveal('.nav', {
-    duration: 4000,
-    origin: 'right',
-    distance: '-400px',
-});
-
-
 sr.reveal('.cards', {
     duration: 4000,
     origin: 'bottom',
