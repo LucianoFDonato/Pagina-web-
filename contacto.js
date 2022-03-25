@@ -19,6 +19,15 @@ document.getElementById('form')
     });
 });
 
+/* Navegation menu */
+
+const Toggle = document.querySelector(".nav-toggle");
+const Menu = document.querySelector(".nav-menu");
+
+Toggle.addEventListener("click", () => {
+    Menu.classList.toggle("nav-menu_visible");
+});
+
 
 /* Transition */
 
