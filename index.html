@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <script src="https://kit.fontawesome.com/b689dbd13c.js" crossorigin="anonymous"></script>
-    <script src="scrollreveal.js"></script>
-    <script defer src="main.js"></script>
+    <script defer src="js/main.js"></script>
 
     <title>Desarrollador Web</title>
 </head>
@@ -22,7 +21,7 @@
     <header>
         <nav class="nav">
             <div class="logo__1">
-                <a href="index.html"><img src="imagenes/L.png" alt="L" class="logo-nav"></a>
+                <a href="index.html"><img src="../imagenes/L.png" alt="L" class="logo-nav"></a>
 
                 <button class="nav-toggle"><i class="fa-solid fa-bars"></i></button>
 
@@ -33,7 +32,7 @@
                 <li class="nav-menu-item"><a href="index.html"
                         class="nav__link nav-menu-link nav-menu-link_active">Inicio</a>
                 </li>
-                <li class="nav-menu-item"><a href="#galeria" class="nav__link nav-menu-link nav-menu-link_active">Sobre
+                <li class="nav-menu-item"><a href="s-mi.html" class="nav__link nav-menu-link nav-menu-link_active">Sobre
                         Mi</a>
                 </li>
                 <li class="nav-menu-item"><a href="contacto.html"
@@ -43,7 +42,7 @@
         </nav>
     </header>
     <section class="cards">
-        <div class="card">
+        <div data-aos="fade-up-right" class="card">
             <div class="card__img"></div>
 
             <div class="card__texts">
@@ -57,7 +56,7 @@
             </div>
             <button href="#" class="card__cta" id="open">Ver más</button>
         </div>
-        <div class="card">
+        <div data-aos="fade-down" class="card">
             <div class="card__img"></div>
 
             <div class="card__texts">
@@ -71,7 +70,7 @@
             <button href="#" class="card__cta" id="open_2">Ver más</button>
 
         </div>
-        <div class="card">
+        <div data-aos="fade-up-left" class="card">
             <div class="card__img"></div>
 
             <div class="card__texts">
@@ -125,49 +124,6 @@
             <button class="close_3" id="close_3"> Cerrar </button>
         </div>
     </div>
-
-    <section class="galeria" id="galeria">
-        <div data-aos="fade-down" class="galeria-item">
-            <figure class="figuras-galeria">
-
-                <img src="imagenes/programando.png" alt="" class="galeria-icon">
-            </figure>
-            <div class="galeria-texts">
-                <h2 class="galeria-h2"></h2>
-                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
-            </div>
-        </div>
-        <div data-aos="fade-up-right" class="galeria-item">
-            <figure class="figuras-galeria">
-
-                <img src="imagenes/codigo.png" alt="" class="galeria-icon">
-            </figure>
-            <div class="galeria-texts">
-                <h2 class="galeria-h2"></h2>
-                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
-            </div>
-        </div>
-        <div data-aos="fade-up-right" class="galeria-item">
-            <figure class="figuras-galeria">
-
-                <img src="imagenes/grupo.png" alt="" class="galeria-icon">
-            </figure>
-            <div class="galeria-texts">
-                <h2 class="galeria-h2"></h2>
-                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
-            </div>
-        </div>
-        <div data-aos="fade-up" class="galeria-item">
-            <figure class="figuras-galeria">
-
-                <img src="imagenes/estudiar.png" alt="" class="galeria-icon">
-            </figure>
-            <div class="galeria-texts">
-                <h2 class="galeria-h2"></h2>
-                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
-            </div>
-        </div>
-    </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -175,7 +131,6 @@
             once: true,
         });
     </script>
-
 </body>
 
 </html>

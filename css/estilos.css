@@ -103,15 +103,15 @@ header {
 }
 
 .card:nth-of-type(1) {
-    --image: url(imagenes/html.jpg);
+    --image: url(../imagenes/html.jpg);
 }
 
 .card:nth-of-type(2) {
-    --image: url(imagenes/css.jpg);
+    --image: url(../imagenes/css.jpg);
 }
 
 .card:nth-of-type(3) {
-    --image: url(imagenes/javaS.jpg);
+    --image: url(../imagenes/javaS.jpg);
 }
 
 
@@ -267,7 +267,7 @@ header {
     width: 90%;
     margin: 0 auto;
     min-height: 100vh;
-    padding: 80px 0;
+    padding: 40px 0;
     display: grid;
     gap: 20px;
     grid-auto-columns: repeat(3, 1fr);
@@ -277,8 +277,6 @@ header {
         ".      card1       ."
         "card2    .     card3"
         ".      card4       .";
-
-    margin-top: 100px;
 }
 
 .galeria-item {
@@ -425,17 +423,19 @@ header {
 @media screen and (max-width: 768px) {
     .cards {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
     }
 
     .galeria {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         margin-top: 40px;
     }
-
-    body {
-        padding: 90px 20px 0;
+    .galeria-item{
+        flex: 1;
+        flex-direction: column;
     }
 
     header {

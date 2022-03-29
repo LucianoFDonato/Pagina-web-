@@ -45,14 +45,3 @@ const Menu = document.querySelector(".nav-menu");
 Toggle.addEventListener("click", () => {
     Menu.classList.toggle("nav-menu_visible");
 });
-
-
-/* Transition */
-
-window.sr = ScrollReveal();
-
-sr.reveal('.cards', {
-    duration: 4000,
-    origin: 'bottom',
-    distance: '-140px',
-});
