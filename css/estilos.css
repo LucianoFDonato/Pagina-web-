@@ -130,7 +130,7 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 90px 0;
+    padding: 150px 0;
     gap: 2em;
 
 }
