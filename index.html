@@ -32,16 +32,32 @@
                 <li class="nav-menu-item"><a href="index.html"
                         class="nav__link nav-menu-link nav-menu-link_active">Inicio</a>
                 </li>
-                <li class="nav-menu-item"><a href="s-mi.html" class="nav__link nav-menu-link nav-menu-link_active">Sobre
+                <li class="nav-menu-item"><a href="#skills"
+                        class="nav__link nav-menu-link nav-menu-link_active">Skills</a>
+                </li>
+                <li class="nav-menu-item"><a href="#galeria" class="nav__link nav-menu-link nav-menu-link_active">Sobre
                         Mi</a>
                 </li>
-                <li class="nav-menu-item"><a href="contacto.html"
+                <li class="nav-menu-item"><a href="#contacto"
                         class="nav__link nav-menu-link nav-menu-link_active">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="cards">
+    <section class="container">
+        <div class="fondo">
+            <div class="div-fondo">
+                <img src="imagenes/luciano.JPG" alt="Luciano imagen">
+                <h1>Hola !</h1>
+                <h2>Mi nombre es Luciano Francisco Donato.</h2>
+                <h3>Frontend Developer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--- Cartas skills --->
+
+    <section class="cards" id="skills">
         <div data-aos="fade-up-right" class="card">
             <div class="card__img"></div>
 
@@ -90,6 +106,8 @@
         </div>
     </section>
 
+    <!--- Modal section --->
+
     <div class="modal-container" id="modal-container">
         <div class="modal">
             <h1>Utilización Html5</h1>
@@ -124,6 +142,107 @@
             <button class="close_3" id="close_3"> Cerrar </button>
         </div>
     </div>
+
+    <!--- Galeria --->
+
+    <section class="galeria" id="galeria">
+        <div data-aos="fade-down" class="galeria-item">
+            <figure class="figuras-galeria">
+
+                <img src="imagenes/programando.png" alt="" class="galeria-icon">
+            </figure>
+            <div class="galeria-texts">
+                <h2 class="galeria-h2"></h2>
+                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
+            </div>
+        </div>
+        <div data-aos="fade-up-right" class="galeria-item">
+            <figure class="figuras-galeria">
+
+                <img src="imagenes/codigo.png" alt="" class="galeria-icon">
+            </figure>
+            <div class="galeria-texts">
+                <h2 class="galeria-h2"></h2>
+                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
+            </div>
+        </div>
+        <div data-aos="fade-up-left" class="galeria-item">
+            <figure class="figuras-galeria">
+
+                <img src="imagenes/grupo.png" alt="" class="galeria-icon">
+            </figure>
+            <div class="galeria-texts">
+                <h2 class="galeria-h2"></h2>
+                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
+            </div>
+        </div>
+        <div data-aos="fade-up" class="galeria-item">
+            <figure class="figuras-galeria">
+
+                <img src="imagenes/estudiar.png" alt="" class="galeria-icon">
+            </figure>
+            <div class="galeria-texts">
+                <h2 class="galeria-h2"></h2>
+                <p class="galeria-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--- Contacto --->
+
+    <footer id="contacto" class="container-footer">
+        <div class="container-img">
+            <div class="div-form">
+                <form id="form" class="form">
+                    <div class="field">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" required>
+                    </div>
+                    <div class="field">
+                        <label for="telefono">Telefono</label>
+                        <input type="text" name="telefono" id="telefono" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="message">Mensaje</label>
+                        <input type="text" name="message" id="message" required>
+                    </div>
+
+                    <input type="submit" class="button" id="button" value="Enviar">
+                </form>
+
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                </script>
+
+                <script type="text/javascript">
+                    emailjs.init('FkvalIKTf3qht5Rq9')
+                </script>
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                </script>
+
+                <script type="text/javascript">
+                    emailjs.init('FkvalIKTf3qht5Rq9')
+                </script>
+                <h1> Contactarme: </h1>
+                <a href="#"><img src="imagenes/whatapps.ico" alt="" class="whatapps"></a>
+                <a href="#"><img src="imagenes/email.ico" alt="" class="email"></a>
+                <a href="#"><img src="imagenes/face.ico" alt="" class="face"></a>
+                <a href="#"><img src="imagenes/link.ico" alt="" class="link"></a>
+                <a href="#"><img src="imagenes/github.ico" alt="" class="github"></a>
+            </div>
+    </footer>
+
+
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
