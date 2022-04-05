@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,300&family=Rubik&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +16,8 @@ body {
 header {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     height: 80px;
-    position: fixed;
     width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -32,19 +33,17 @@ header {
 
 .nav-link {
     color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 3px;
 }
 
 .nav-menu {
     display: flex;
     float: right;
     list-style: none;
+    margin-top: 25px;
 
     left: 100%;
 }
-
+/**
 .nav-menu-item {
     font-size: 15px;
     margin: 0 10px;
@@ -52,17 +51,43 @@ header {
     text-transform: uppercase;
     width: max-content;
 }
+***/
+.nav-menu-link {
+   background-color: transparent;
+   border: 2px solid;
+   border-radius: 1em;
+   cursor: pointer;
+   margin: 0 20px;
+   padding: .5rem .8rem;
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
+}
+.nav-menu-link:focus{
+    outline: 0;
+}
+
+.nav-menu-link{
+    border-color:rgb(13, 13, 14);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.nav-menu-link:hover{
+    background-color: black;
+    box-shadow: 0 0 40px inset;
+}
+
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    transition: 0.5s;
+    
+
 }
+
 
 .logo__1 {
     font-weight: bold;
-    padding: 5px 40px;
+    padding: 5px 0px;
     line-height: 80px;  
 }
 
@@ -71,7 +96,7 @@ header {
     background: none;
     border: none;
     font-size: 30px;
-    padding: 20px 20px;
+    padding: 20px 20px; 
     float: right;
     cursor: pointer;
 
@@ -81,8 +106,10 @@ header {
 /**** Container ****/
 
 .container{
-    height: 700px;
-    
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
 }
 
 .fondo{
@@ -93,9 +120,12 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 83px;
+    border-radius: 1em;
 }
 
 .div-fondo{
+    width: 100%;
+    height: 900px;
     text-align: center;
     margin: 0 auto;
     margin-top: auto;
@@ -105,7 +135,7 @@ header {
     width: 280px;
     height: 280px;
     border-radius: 9em 9em;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .div-fondo h1{
@@ -117,10 +147,6 @@ header {
     margin-top: 20px;
 }
 
-
-
-
-
 /*  Cards */
 
 .cards {
@@ -130,8 +156,9 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 150px 0;
+    padding: 150px 3px;
     gap: 2em;
+    margin-top: 50px;
 
 }
 
@@ -144,6 +171,8 @@ header {
     flex-direction: column;
 }
 
+
+/*****
 .card:nth-of-type(1) {
     --image: url(../imagenes/html.jpg);
 }
@@ -155,14 +184,15 @@ header {
 .card:nth-of-type(3) {
     --image: url(../imagenes/javaS.jpg);
 }
+****/
 
 
-.card__img {
-    background-image: var(--image);
-    background-position: center top;
+.card__img img {
     background-size: cover;
+    width: 100%;
     height: 200px;
     border-radius: 1em 1em 0 0;
+    
 }
 
 .card__texts {
@@ -558,7 +588,7 @@ header {
         transition: left 0.3s;
     }
 
-    .card__img{
+    .card__img img{
         background-size: cover;
     }
 
