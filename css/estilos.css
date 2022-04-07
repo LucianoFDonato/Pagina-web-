@@ -26,14 +26,11 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
-
+    text-decoration: none;
     max-width: 992px;
     margin: 0 auto;
 }
 
-.nav-link {
-    color: rgb(255, 255, 255);
-}
 
 .nav-menu {
     display: flex;
@@ -44,14 +41,16 @@ header {
     left: 100%;
 }
 
-.nav-menu-link {
+
+.nav-menu-link {    
+    color:rgb(49, 6, 90);
     background-color: transparent;
     border-radius: 1em;
     cursor: pointer;
     margin: 0 20px;
     padding: .5rem .8rem;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -60,16 +59,18 @@ header {
 }
 
 .nav-menu-link {
-    border-color:rgba(83, 83, 83, 1);
+    border-color: rgb(0, 73, 116);
     transition: box-shadow 0.2s ease-in-out;
 }
 
 .nav-menu-link:hover {
-    background-color: rgb(1, 121, 145);
+    background-color: rgb(0, 213, 255);
     box-shadow: 5px 10px;
 }
 
-.logo__1 {
+
+.btn {
+    cursor: pointer;
 }
 
 
@@ -139,13 +140,13 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 150px 3px;
-    gap: 2em;
+    gap: .2em;
     margin-top: 50px;
 
 }
 
 .card {
-    padding-bottom: 2.5em;
+    padding-bottom: 2.2em;
     width: 100%;
     border-radius: 1em;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
@@ -188,7 +189,7 @@ header {
 
 .card__cta {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
-    border-radius: 5px;
+    border-radius: 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0.2);
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -196,7 +197,14 @@ header {
     text-align: center;
     margin: 0 auto;
     margin-top: auto;
+
 }
+
+.btn {
+    cursor: pointer;
+}
+
+
 
 /* Modal */
 
@@ -305,7 +313,7 @@ header {
 .close_2,
 .close_3 {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
-    border-radius: 5px;
+    border-radius: 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0.2);
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -331,10 +339,12 @@ header {
         ".      card1       ."
         "card2    .     card3"
         ".      card4       .";
+
+    margin-top: 150px;
 }
 
 .galeria-item {
-    padding: 2em;
+    padding: 1em;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -370,20 +380,6 @@ header {
 
 /**** contacto *****/
 
-.map {
-    border-radius: 1em;
-    height: 300px;
-
-}
-
-/**** formulario ******/
-
-.map {
-    width: 100%;
-    height: 330px;
-}
-
-
 #message {
     height: 50px;
 }
@@ -409,10 +405,17 @@ header {
 
 
 /**** Footer ****/
+.container-footer {
+    width: 90%; 
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
 
 #form {
     width: 400px;
-    height: 400px;
+    height: 450px;
     border-radius: 1em;
     background: linear-gradient(90deg, rgb(8, 3, 88) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     padding: 10px 25px;
@@ -426,7 +429,7 @@ header {
     text-align: center;
     margin: 0 auto;
     margin-top: auto;
-    box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5);
+    
 }
 
 .field input {
@@ -437,7 +440,45 @@ header {
     margin-top: 20px;
 }
 
+.button {    
+    color:rgb(49, 6, 90);
+    background-color: transparent;
+    border-radius: 1em;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: .5rem .8rem;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: none;
+}
 
+.button:focus {
+    outline: 0;
+}
+
+.button {
+    border-color: rgb(0, 73, 116);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(112, 213, 255);
+    box-shadow: 5px 10px;
+}
+
+.div-contacto{
+    width: 100%;
+    height: 150px;
+    border-radius: 1em;
+    background: linear-gradient(90deg, rgb(8, 3, 88) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+    margin-bottom: 10px;
+}
+
+.div-contacto h1{
+    padding: 10px;
+}
 
 /* Transition */
 
@@ -579,7 +620,7 @@ header {
         transition: left 0.3s;
     }
 
-    .nav-menu-link{
+    .nav-menu-link {
         decoration: none;
     }
 
