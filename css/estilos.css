@@ -114,6 +114,16 @@ header {
     margin-top: auto;
 }
 
+.div-title{
+    width: 50%;
+    height: 20%;
+    border: 1px solid black;
+    border-radius: 1em;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
 .foto {
     width: 240px;
     height: 240px;
