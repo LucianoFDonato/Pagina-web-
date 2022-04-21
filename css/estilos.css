@@ -386,7 +386,7 @@ header {
     width: 370px;
     height: 230px;
     color:rgb(255, 255, 255);
-    padding: 50px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -654,6 +654,38 @@ header {
         margin-top: 100px;
     }
 
+    .div-title {
+        width: 50%;
+        height: 20%;
+        border-radius: 1em;
+        display:  grid;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+        box-shadow: 0 0 32px -16px rgb(255, 255, 255);
+    }
+    
+    .div-title h1 {
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -50px;
+    }
+    
+    .div-title h2 {
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .div-title h3 {
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+    }
+
+
     .cards {
         display: flex;
         flex-wrap: wrap;
@@ -703,7 +735,7 @@ header {
     }
 
     .nav-menu-link {
-        decoration: none;
+        text-decoration: none;
     }
 
     .card__img img {
