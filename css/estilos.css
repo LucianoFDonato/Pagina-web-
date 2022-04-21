@@ -29,6 +29,7 @@ header {
     text-decoration: none;
     max-width: 992px;
     margin: 0 auto;
+    margin-top: 5px;
 }
 
 
@@ -115,17 +116,6 @@ header {
     margin-top: auto;
 }
 
-.div-title {
-    width: 50%;
-    height: 20%;
-    border: 1px solid black;
-    border-radius: 1em;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    position: relative;
-}
-
 .foto {
     width: 240px;
     height: 240px;
@@ -133,8 +123,35 @@ header {
     margin-top: 100px;
 }
 
-.div-fondo h1 {
+.div-title {
+    width: 50%;
+    height: 20%;
+    border-radius: 1em;
+    display:  grid;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    box-shadow: 0 0 32px -16px rgb(255, 255, 255);
+}
+
+.div-title h1 {
     color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.div-title h2 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.div-title h3 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
 }
 
 .signo-ab {
@@ -359,22 +376,25 @@ header {
     grid-auto-columns: repeat(3, 1fr);
     grid-template-rows: (4, 1fr);
     align-items: center;
-    grid-template-areas:
-        ".      card1       ."
-        "card2    .     card3"
-        ".      card4       .";
-
+    grid-template-areas:        ".      card1       ."        "card2    .     card3"        ".      card4       .";
     margin-top: 150px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+    border-radius: 1em;
 }
 
 .galeria-item {
-    padding: 1em;
+    width: 370px;
+    height: 230px;
+    color:rgb(255, 255, 255);
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
-    box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 32px -16px rgb(255, 255, 255);
+    margin-left: 12px;
+    border-radius: 1em;
 }
 
 .galeria-item:nth-of-type(1) {
