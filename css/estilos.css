@@ -725,6 +725,7 @@ header {
     }
 
     .galeria {
+        height: 900px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -818,6 +819,9 @@ header {
 
 @media screen and (min-width: 768px) {
 
+   
+
+
     .div-fondo {
         width: 90%;
         height: 900px;
@@ -833,6 +837,6 @@ header {
 
 @media screen and (min-width: 1028px) {
 
-    
+  
 
 }
