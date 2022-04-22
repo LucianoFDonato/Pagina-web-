@@ -22,6 +22,13 @@ header {
     left: 0;
     z-index: 1;
 }
+.titulo-resp{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+}
+
 
 .nav {
     display: flex;
@@ -659,6 +666,11 @@ header {
 /* Responsive */
 
 @media screen and (max-width: 768px) {
+
+    .titulo-resp{
+        opacity: 1;
+    }
+
 
     .div-fondo {
         width: 90%;
