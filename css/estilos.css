@@ -368,6 +368,7 @@ header {
 
 .galeria {
     width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
     min-height: 100vh;
     padding: 90px 0;
@@ -754,10 +755,32 @@ header {
         text-decoration: none;
     }
 
+    .cards {
+        font-family: 'Rubik', sans-serif;
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        padding: 150px 3px;
+        gap: .2em;
+        margin-top: 50px;
+    
+    }
+    
+    .card {
+        padding-bottom: 2.2em;
+        width: 100%;
+        border-radius: 1em;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+        display: flex;
+        flex-direction: column;
+    }
+    
+
     .card__img img {
         background-size: cover;
     }
-
 
 
 
@@ -785,4 +808,11 @@ header {
         max-width: 1200px;
         margin-top: 50px;
     }
+}   
+
+
+@media screen and (min-width: 1028px) {
+
+    
+
 }
