@@ -792,6 +792,11 @@ header {
     .nav-menu_visible {
         left: 0;
     }
+
+    .container-footer{
+        width: 100%;
+    }
+
 }
 
 
