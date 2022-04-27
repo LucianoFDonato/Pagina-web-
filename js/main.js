@@ -45,3 +45,19 @@ const Menu = document.querySelector(".nav-menu");
 Toggle.addEventListener("click", () => {
     Menu.classList.toggle("nav-menu_visible");
 });
+
+
+/* Click y copy */ 
+
+function copia(elem){
+    var copyText = elem;
+    console.log(elem);
+    
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+
+
+    document.execCommand("copy");
+
+
+}
