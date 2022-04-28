@@ -256,28 +256,31 @@
         <div class="div-contacto">
             <h1 class="contactarme"> Contactarme: </h1>
             <a href="https://bit.ly/38z4UAQ" id="wp"><img src="imagenes/whatapps.ico" alt=""></a>
-            <a href="www.facebook.com"><img src="imagenes/facebook.png" alt="" class="face"></a>
+            <a href="#"><img src="imagenes/face.ico" alt="" class="email"></a>
             <a href="#"><img src="imagenes/email.ico" alt="" class="email"></a>
             <a href="#"><img src="imagenes/link.ico" alt="" class="link"></a>
             <a href="#"><img src="imagenes/github.ico" alt="" class="github"></a>
         </div>
-        <form action="">
-            <p>Nombre:</p>
-            <input type="text" class="field"><br>
-
-            <p>Correo electronico:</p>
-            <input type="text" class="field"><br>
-
-            <p>Asunto:</p>
-            <input type="text" class="field"><br>
-
-            <p>Mensaje:</p>
-            <textarea class="field"></textarea><br>
-
-            <p class="center-content">
-                <input type="submit" class="btn btn-green" value="Enviar Datos">
-            </p>
-        </form>
+        
+        <div class="container">
+            <h1 class="form-h1"> Completar formulario:</h1>
+            <form target="_blank" action="https://formsubmit.co/lucianofdonato@gmail.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Su mensaje..." class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar formulario</button>
+            </form>
+          </div>
     </footer>
     </div>
     </footer>
