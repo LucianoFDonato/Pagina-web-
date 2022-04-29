@@ -102,7 +102,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .fondo {
@@ -920,9 +920,26 @@ textarea {
 }
 
 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header{
+        width: 100%;
+    }
+    .container-first{
+        width: 100%;
+    }
+    .cards{
+        width: 100%;
+
+    }
+    .modal{
+        width: 100%;
+    }
+    .galeria{
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 480px){
-    
     
 
     .logo-nav {
