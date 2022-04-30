@@ -99,7 +99,7 @@ header {
     width: 90%;
     height: 15px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 250px;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     border-radius: 1em;
 }
@@ -107,8 +107,8 @@ header {
     width: 90%;
     height: 15px;
     margin: 0 auto;
-    margin-top: 250px;
-    margin-bottom: 350px;
+    margin-top: 100px;
+    margin-bottom: 200px;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     border-radius: 1em;
 }
@@ -116,7 +116,8 @@ header {
     width: 90%;
     height: 15px;
     margin: 0 auto;
-    margin-top: 500px;
+    margin-top: 250px;
+    margin-bottom: 250px;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     border-radius: 1em;
 }
@@ -557,7 +558,6 @@ header {
     padding: 10px 25px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 700px;
     margin-bottom: 50px;
 }
 
