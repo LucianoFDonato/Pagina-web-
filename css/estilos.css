@@ -1067,7 +1067,7 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     .galeria-item {
@@ -1085,10 +1085,9 @@ textarea {
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        padding: 150px 3px;
+        padding: 0 3px;
         gap: .2em;
-        margin-top: 50px;
-
+        margin-top: 10px;
     }
 
     .card {
@@ -1131,9 +1130,24 @@ textarea {
     .container-footer{
         width: 100%;
         padding: 10px;
+        margin-top: 80px;
     }
     .container{
         width: 100%;
         
+    }
+    .div-line{
+        width: 95%;
+        margin-top: 80px;
+    }
+    .div-line-2{
+        width: 95%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+    }
+    .div-line-3{
+        width: 95%;
+        margin-top: 80px;
     }
 }
