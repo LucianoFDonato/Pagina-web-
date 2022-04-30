@@ -1087,7 +1087,7 @@ textarea {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         padding: 0 3px;
         gap: .2em;
-        margin-top: 10px;
+        margin-top: 80px;
     }
 
     .card {
@@ -1130,7 +1130,6 @@ textarea {
     .container-footer{
         width: 100%;
         padding: 10px;
-        margin-top: 80px;
     }
     .container{
         width: 100%;
@@ -1149,5 +1148,6 @@ textarea {
     .div-line-3{
         width: 95%;
         margin-top: 80px;
+        margin-bottom: 80px;
     }
 }
