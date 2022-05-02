@@ -962,6 +962,20 @@ textarea {
     .galeria{
         width: 100%;
     }
+    .div-line{
+        width: 90%;
+       
+    }
+    .div-line-2{
+        width: 90%;
+        
+
+    }
+    .div-line-3{
+        width: 90%;
+        
+    }
+}
 }
 
 @media screen and (max-width: 480px){
