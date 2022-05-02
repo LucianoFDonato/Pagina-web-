@@ -46,3 +46,8 @@ Toggle.addEventListener("click", () => {
     Menu.classList.toggle("nav-menu_visible");
 });
 
+const close_nav = document.getElementById('.nav__link');
+
+close_nav.addEventListener('click', () => {
+    nav-menu-link.classList.remove('.nav-toggle');
+});
