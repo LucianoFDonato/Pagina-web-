@@ -47,15 +47,15 @@
     </header>
     <section class="container-first">
         <div class="titulo-resp">
-            <h1>Bienvenidos</h1>
+        <h1> Bienvenidos </h1>
         </div>
         <div class="fondo">
             <div class="div-fondo">
                 <img data-aos="fade-down" src="imagenes/L+.png" alt="Luciano imagen" class="foto">
                 <div class="div-title">
-                    <img data-aos="fade-up" src="imagenes/signo-ab.png" class="signo-ab">
+                    <img data-aos="fade-up" src="imagenes/signo-ab.png" class="signo-ab" alt="signo-ab image">
                     <h1>Hola</h1>
-                    <img data-aos="fade-up" src="imagenes/signo-ce.png" class="signo-ce">
+                    <img data-aos="fade-up" src="imagenes/signo-ce.png" class="signo-ce" alt="signo-ce image">
                     <h2>Mi nombre es Luciano Francisco Donato.</h2>
                     <h3> Soy Frontend Developer</h3>
                 </div>
@@ -68,7 +68,7 @@
     <section class="cards" id="skills">
         <div data-aos="fade-up-right" class="card">
             <div class="card__img">
-                <img src="imagenes/html.jpg" alt="" srcset="">
+            <img src="imagenes/html.jpg" alt="html image">
             </div>
 
             <div class="card__texts">
@@ -79,11 +79,11 @@
                     sobre su estructura, complementando dicho texto con diversos objetos (como fotografías, animaciones,
                     etc).</p>
             </div>
-            <button href="#" class="card__cta" id="open">Ver más</button>
+            <button class="card__cta" id="open">Ver más</button>
         </div>
         <div data-aos="fade-down" class="card">
             <div class="card__img">
-                <img src="imagenes/css.jpg" alt="" srcset="">
+            <img src="imagenes/css.jpg" alt="css image">
             </div>
 
             <div class="card__texts">
@@ -94,13 +94,13 @@
             </div>
 
 
-            <button href="#" class="card__cta" id="open_2">Ver más</button>
+            <button class="card__cta" id="open_2">Ver más</button>
 
         </div>
 
         <div data-aos="fade-up-left" class="card">
             <div class="card__img">
-                <img src="imagenes/javaS.jpg" alt="" srcset="">
+            <img src="imagenes/javaS.jpg" alt="java script image">
             </div>
 
             <div class="card__texts">
@@ -116,7 +116,7 @@
 
 
 
-            <button href="#" class="card__cta" id="open_3">Ver más</button>
+            <button class="card__cta" id="open_3">Ver más</button>
 
         </div>
     </section>
@@ -140,7 +140,14 @@
     <div class="modal-container-2" id="modal-container-2">
         <div class="modal-2">
             <h1>Utilización Css3</h1>
-            
+            .card {<br>
+                padding-bottom: 2.2em;<br>
+                width: 100%;
+                border-radius: 1em;<br>
+                box-shadow: 0 0 6px rgba(0, 0, 0, .5);<br>
+                display: flex;<br>
+                flex-direction: column;
+            }
 
             <button class="close_2" id="close_2"> Cerrar </button>
         </div>
@@ -149,7 +156,12 @@
     <div class="modal-container-3" id="modal-container-3">
         <div class="modal-3">
             <h1>Utilización JavaScript</h1>
-            
+            const modal_container = document.getElementById('modal-container');
+            const close = document.getElementById('close');<br>
+            <br>
+            close.addEventListener('click', () => {<br>
+            modal_container.classList.remove('show');<br>
+            });
 
             <button class="close_3" id="close_3"> Cerrar </button>
         </div>
@@ -245,8 +257,6 @@
               <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar formulario</button>
             </form>
           </div>
-    </footer>
-    </div>
     </footer>
 
 
