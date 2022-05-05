@@ -949,6 +949,22 @@ textarea {
         padding: 10px;
     }
     
+    .modal {
+        background: rgb(49, 49, 49);
+        color:rgb(255, 255, 255);
+        width: 600px;
+        max-width: 100%;
+        height: 300px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
     .nav-toggle {
         display: block;
     }
