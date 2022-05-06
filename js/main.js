@@ -45,3 +45,17 @@ const Menu = document.querySelector(".nav-menu");
 Toggle.addEventListener("click", () => {
     Menu.classList.toggle("nav-menu_visible");
 });
+
+let btn = document.querySelector(".nav-toggle");
+let icon = btn.querySelector(".fa-bars");
+
+btn.addEventListener("click", () => {
+  if(icon.classList.contains("fa-bars")){
+    icon.classList.replace("fa-bars", "fa-xmark");
+  }
+  else{
+      icon.classList.replace("fa-xmark","fa-bars");
+  }
+  
+});
+
