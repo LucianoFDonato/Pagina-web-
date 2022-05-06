@@ -211,7 +211,6 @@ header {
 /*  Cards */
 
 .cards {
-    font-family: 'Rubik', sans-serif;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -295,9 +294,9 @@ header {
 
 .modal {
     background: rgb(255, 255, 255);
-    width: 600px;
+    width: 700px;
     max-width: 100%;
-    height: 300px;
+    height: 500px;
     padding: 30px 50px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -323,9 +322,9 @@ header {
 
 .modal-2 {
     background: rgb(255, 255, 255);
-    width: 600px;
+    width: 700px;
     max-width: 100%;
-    height: 300px;
+    height: 500px;
     padding: 30px 50px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -357,9 +356,9 @@ header {
 
 .modal-3 {
     background: rgb(255, 255, 255);
-    width: 600px;
+    width: 700px;
     max-width: 100%;
-    height: 300px;
+    height: 500px;
     padding: 30px 50px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -937,23 +936,23 @@ textarea {
     
     .modal-container{
         width: 100%;
+        height: 300px;
         padding: 10px;
     }
     
     .modal {
         background: rgb(255, 255, 255);
-        color:rgb(0, 0, 0);
-        width: 600px;
+        width: 700px;
         max-width: 100%;
-        height: 320px;
-        padding: 10px 20px;
+        height: 500px;
+        padding: 30px 50px;
         border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
-        align-items: center;
         display: flex;
         flex-direction: column;
     }
+    
     
     .modal-2 {
         background: rgb(255, 255, 255);
@@ -976,7 +975,7 @@ textarea {
     .modal-3 {
         background: rgb(255, 255, 255);
         color:rgb(0, 0, 0);
-        width: 600px;
+        width: 100%;
         max-width: 100%;
         height: 320px;
         padding: 10px 20px;

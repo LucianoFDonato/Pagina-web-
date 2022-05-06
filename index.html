@@ -14,6 +14,9 @@
     <script src="https://kit.fontawesome.com/b689dbd13c.js" crossorigin="anonymous"></script>
     <script defer src="js/main.js"></script>
 
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/monokai-sublime.min.css'>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js'></script>
+
     <title>Desarrollador Web.</title>
 </head>
 
@@ -26,7 +29,7 @@
 
                 <button class="nav-toggle"><i class="fa-solid fa-bars"></i></button>
 
-                
+
             </div>
 
             <ul class="nav-menu">
@@ -44,7 +47,7 @@
                 </li>
             </ul>
 
-            
+
         </nav>
     </header>
     <section class="container-first">
@@ -67,7 +70,7 @@
     <section class="cards" id="skills">
         <div data-aos="fade-up-right" class="card">
             <div class="card__img">
-            <img src="imagenes/html.jpg" alt="html image">
+                <img src="imagenes/html.jpg" alt="html image">
             </div>
 
             <div class="card__texts">
@@ -82,7 +85,7 @@
         </div>
         <div data-aos="fade-down" class="card">
             <div class="card__img">
-            <img src="imagenes/css.jpg" alt="css image">
+                <img src="imagenes/css.jpg" alt="css image">
             </div>
 
             <div class="card__texts">
@@ -99,7 +102,7 @@
 
         <div data-aos="fade-up-left" class="card">
             <div class="card__img">
-            <img src="imagenes/javaS.jpg" alt="java script image">
+                <img src="imagenes/javaS.jpg" alt="java script image">
             </div>
 
             <div class="card__texts">
@@ -126,12 +129,7 @@
     <div class="modal-container" id="modal-container">
         <div class="modal">
             <h1>Ejemplo <i class="fa-brands fa-html5"></i></h1>
-            &lt;section&gt; class="cards" id="skills"&gt; <br>
-                &lt;div&gt; class=""data-aos="fade-up-right" class="card"&gt; <br>
-                    &lt;div&gt; class="card__img"&gt; <br>
-                        &lt;img&gt; src="imagenes/html.jpg"&gt; <br>
-                    &lt;/div&gt; <br>
-
+            <img class="img-frag" src="imagenes/html-frag.png" alt="html fragmento">
             <button class="close" id="close"> Cerrar </button>
         </div>
     </div>
@@ -139,14 +137,8 @@
     <div class="modal-container-2" id="modal-container-2">
         <div class="modal-2">
             <h1>Ejemplo <i class="fa-brands fa-css3-alt"></i></h1>
-            .card {<br>
-                padding-bottom: 2.2em;<br>
-                width: 100%;
-                border-radius: 1em;<br>
-                box-shadow: 0 0 6px rgba(0, 0, 0, .5);<br>
-                display: flex;<br>
-                flex-direction: column;
-            }
+            <img class="img-frag" src="imagenes/css-frag.png" alt="fragmento css">
+           
 
             <button class="close_2" id="close_2"> Cerrar </button>
         </div>
@@ -155,12 +147,7 @@
     <div class="modal-container-3" id="modal-container-3">
         <div class="modal-3">
             <h1>Ejemplo <i class="fa-brands fa-js"></i></h1>
-            const modal_container = document.getElementById('modal-container');
-            const close = document.getElementById('close');<br>
-            <br>
-            close.addEventListener('click', () => {<br>
-            modal_container.classList.remove('show');<br>
-            });
+            <img class="img-frag" src="imagenes/js-frag.png" alt="JavaScript fragmento">
 
             <button class="close_3" id="close_3"> Cerrar </button>
         </div>
@@ -215,7 +202,7 @@
     </section>
     <div data-aos="fade-right" class="div-line-3"></div>
 
-   
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
 
@@ -233,29 +220,32 @@
             <h1 class="contactarme"> Contactarme: </h1>
             <a href="https://bit.ly/38z4UAQ" id="wp"><img src="imagenes/whatapps.ico" alt=""></a>
             <a href="https://www.facebook.com/luciano.donato.50"><img src="imagenes/face.ico" alt="" class="email"></a>
-            <a href="https://www.linkedin.com/in/luciano-francisco-donato-59b834222/"><img src="imagenes/link.ico" alt="" class="link"></a>
-            <a href="https://github.com/LucianoFDonato?tab=repositories"><img src="imagenes/github.ico" alt="" class="github"></a>
+            <a href="https://www.linkedin.com/in/luciano-francisco-donato-59b834222/"><img src="imagenes/link.ico"
+                    alt="" class="link"></a>
+            <a href="https://github.com/LucianoFDonato?tab=repositories"><img src="imagenes/github.ico" alt=""
+                    class="github"></a>
         </div>
-        
+
         <div class="container">
             <h1 class="form-h1" id="form-h1"> Completar formulario:</h1>
             <form target="_blank" action="https://formsubmit.co/lucianofdonato@gmail.com" method="POST">
-              <div class="form-group">
-                <div class="form-row">
-                  <div class="col">
-                    <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
-                  </div>
-                  <div class="col">
-                    <input type="email" name="email" class="form-control" placeholder="Email" required>
-                  </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <textarea placeholder="Su mensaje..." class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar formulario</button>
+                <div class="form-group">
+                    <textarea placeholder="Su mensaje..." class="form-control" name="message" rows="10"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar formulario</button>
             </form>
-          </div>
+        </div>
     </footer>
 
 
