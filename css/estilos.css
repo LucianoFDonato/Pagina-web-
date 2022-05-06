@@ -297,12 +297,15 @@ header {
     width: 700px;
     max-width: 100%;
     height: 500px;
-    padding: 30px 50px;
+    padding: 0px 50px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+.modal button{
+    margin-bottom: 10px;
 }
 
 .modal-container-2 {
@@ -333,6 +336,9 @@ header {
     flex-direction: column;
 }
 
+.modal-2 button{
+    margin-top: 5px;
+}
 
 .modal-container-3 {
     display: flex;
@@ -346,7 +352,6 @@ header {
     left: 0;
     height: 100vh;
     width: 100%;
-
 }
 
 .show {
@@ -367,12 +372,15 @@ header {
     flex-direction: column;
 }
 
+.modal-3 button{
+    margin-top: 23px;
+}
+
 
 .close,
 .close_2,
 .close_3 {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
-    border-radius: 1em;
     border-radius: 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0.2);
     color: rgb(253, 253, 253);
@@ -945,7 +953,7 @@ textarea {
         width: 700px;
         max-width: 100%;
         height: 500px;
-        padding: 30px 50px;
+        padding: 0px 50px;
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
