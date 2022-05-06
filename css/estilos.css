@@ -838,13 +838,6 @@ textarea {
         flex-wrap: wrap;
         flex-direction: column;
     }
-   
-    .titulo-resp {
-        font-size: 20px;
-        text-align: center;
-        opacity: 1;
-    }
-
 
     .div-fondo {
         width: 100%;
