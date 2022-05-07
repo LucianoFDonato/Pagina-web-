@@ -294,6 +294,7 @@ header {
     height: 100vh;
     width: 100%;
     margin-top: 30px;
+    z-index: 1;
 }
 
 .modal {
@@ -313,12 +314,17 @@ header {
     margin-bottom: 15px;
 }
 
-.modal img{
-    width: 500px;
+.modal-img{
+    width: 600px;
     height: 300px;
+    background-image: url(../imagenes/html-frag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: -30px;
     align-items: center;
     margin: 0 auto;
+    border-radius: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.2);
 }
 
 .modal button {
@@ -338,6 +344,7 @@ header {
     height: 100vh;
     width: 100%;
     margin-top: 30px;
+    z-index: 1;
 }
 
 .modal-2 {
@@ -357,16 +364,21 @@ header {
     margin-bottom: 15px;
 }
 
-.modal-2 img{
-    width: 500px;
+.modal-img-2{
+    width: 627px;
     height: 300px;
+    background-image: url(../imagenes/css-frag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: -30px;
     align-items: center;
     margin: 0 auto;
+    border-radius: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.2);
 }
 
 .modal-2 button {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .modal-container-3 {
@@ -382,6 +394,7 @@ header {
     height: 100vh;
     width: 100%;
     margin-top: 30px;
+    z-index: 1;
 }
 
 .show {
@@ -406,12 +419,17 @@ header {
     margin-bottom: 15px;
 }
 
-.modal-3 img{
-    width: 500px;
+.modal-img-3{
+    width: 627px;
     height: 300px;
+    background-image: url(../imagenes/js-frag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: -30px;
     align-items: center;
     margin: 0 auto;
+    border-radius: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.2);
 }
 
 .modal-3 button {
@@ -982,8 +1000,11 @@ textarea {
     .modal-container {
         width: 100%;
         height: 100vh;
-        padding: 10px;
-    }     
+        margin: 0 auto;
+        margin-top: 200px;
+       
+    }
+
 
     .galeria {
         width: 100%;
