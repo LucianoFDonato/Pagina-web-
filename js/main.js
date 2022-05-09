@@ -42,9 +42,16 @@ close_3.addEventListener('click', () => {
 const Toggle = document.querySelector(".nav-toggle");
 const Menu = document.querySelector(".nav-menu");
 
+
+
 Toggle.addEventListener("click", () => {
     Menu.classList.toggle("nav-menu_visible");
 });
+document.addEventListener("click", () =>{
+    Menu.classList.add("nav-menu");
+})
+
+/* Chances bars */
 
 let btn = document.querySelector(".nav-toggle");
 let icon = btn.querySelector(".fa-bars");

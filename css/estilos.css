@@ -213,6 +213,7 @@ header {
 
 /*  Cards */
 
+
 .cards {
     width: 90%;
     max-width: 1200px;
@@ -282,6 +283,8 @@ header {
 /* Modal */
 
 .modal-container {
+    height: 100vh;
+    width: 100%;
     display: flex;
     background-color: rgb(0, 0, 0, 0.8);
     align-items: center;
@@ -291,11 +294,11 @@ header {
     opacity: 0;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100%;
-    margin-top: 30px;
+
+
     z-index: 1;
 }
+
 
 .modal {
     background: rgb(255, 255, 255);
@@ -308,7 +311,9 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
+
 
 .modal h1{
     margin-bottom: 15px;
@@ -343,7 +348,7 @@ header {
     left: 0;
     height: 100vh;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     z-index: 1;
 }
 
@@ -413,6 +418,7 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .modal-3 h1{
@@ -997,6 +1003,9 @@ textarea {
         background-size: cover;
     }
 
+    
+    }
+
 
     .galeria {
         width: 100%;
@@ -1035,10 +1044,6 @@ textarea {
     header {
         background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
         height: 73px;
-    }
-
-    .nav__link {
-        left: 0;
     }
 
     .container-footer {
