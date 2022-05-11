@@ -818,9 +818,10 @@ textarea {
         padding: 0;
     }
     .modal-img{
-        width: 350px;
+        width: 400px;
         height: 200px;
         margin-top: 30px;
+        margin: 0;
     }
     .modal-img-2{
         width: 350px;
