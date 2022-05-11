@@ -51,12 +51,6 @@ document.addEventListener("click", () =>{
     Menu.classList.add("nav-menu");
 })
 
-const Main = document.querySelector(".nav.menu");
-const btnCambiar = document.getElementById("#nav");
-
-btnCambiar.addEventListener("click", () =>{
-    document.Main.left = "100%";
-})
 
 /* Chances bars */
 

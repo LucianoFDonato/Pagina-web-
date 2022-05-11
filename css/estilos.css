@@ -74,6 +74,10 @@ header {
     cursor: pointer;
 }
 
+.logo__1{
+    display: flex;
+    float: right;
+}
 
 .nav-toggle {
     color: rgb(0, 0, 0);
@@ -83,8 +87,9 @@ header {
     padding: 20px 20px;
     float: right;
     cursor: pointer;
-    opacity: 0;
+
     display: none;
+   
 }
 
 .div-line {
@@ -676,8 +681,11 @@ textarea {
 
 @media screen and (max-width: 480px) {
 
-    .logo-nav {
-        font-size: 5px;
+    nav{
+        width: 100%;
+    }
+
+    .logo__1 img {
         padding: 0 5px;
     }
 
@@ -694,11 +702,8 @@ textarea {
         height: calc(100% - 60px);
         overflow-y: auto;
         justify-content: center;
-
-
-
         left: 100%;
-        transition: left 0.3s;
+        transition: left 0.4s;
     }
 
     .nav-toggle {
@@ -813,24 +818,23 @@ textarea {
     .modal,
     .modal-2,
     .modal-3{
-        width: 100%;
+        width: 500px;
         height: 70%;
         padding: 0;
     }
     .modal-img{
-        width: 400px;
+        width: 100%;
         height: 200px;
         margin-top: 30px;
-        margin: 0;
     }
     .modal-img-2{
-        width: 350px;
+        width: 100%;
         height: 200px;
         margin-top: 30px;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
     .modal-img-3{
-        width: 350px;
+        width: 100%;
         height: 200px;
         margin-top: 30px;
         margin-bottom: 10px;
