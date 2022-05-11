@@ -817,17 +817,23 @@ textarea {
         height: 70%;
         padding: 0;
     }
-    .modal-img,
-    .modal-img-3{
-        width: 320px;
+    .modal-img{
+        width: 350px;
         height: 200px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .modal-img-2{
-        width: 320px;
+        width: 350px;
         height: 200px;
-        margin-top: 10px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .modal-img-3{
+        width: 350px;
+        height: 200px;
+        margin-top: 30px;
         margin-bottom: 10px;
+
     }
 
 
