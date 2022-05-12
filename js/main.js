@@ -41,7 +41,7 @@ close_3.addEventListener('click', () => {
 
 const Toggle = document.querySelector(".nav-toggle");
 const Menu = document.querySelector(".nav-menu");
-
+const Btn = document.querySelector(".nav-menu-link");
 
 
 Toggle.addEventListener("click", () => {
@@ -50,6 +50,7 @@ Toggle.addEventListener("click", () => {
 document.addEventListener("click", () =>{
     Menu.classList.add("nav-menu");
 })
+
 
 
 /* Chances bars */
