@@ -308,7 +308,7 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    
 }
 
 
@@ -345,7 +345,7 @@ header {
     left: 0;
     height: 100vh;
     width: 100%;
-    margin-top: 50px;
+    
     z-index: 1;
 }
 
@@ -395,7 +395,7 @@ header {
     left: 0;
     height: 100vh;
     width: 100%;
-    margin-top: 30px;
+    
     z-index: 1;
 }
 
@@ -415,7 +415,7 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    
 }
 
 .modal-3 h1{
@@ -676,6 +676,68 @@ textarea {
     box-shadow: 5px 10px;
 }
 
+
+@media screen and (max-width: 768px) and (max-width: 1024px){
+
+    body{
+        width: 1024px;
+    }
+
+    .nav{
+        width: 70%;
+        padding: 0 80px;
+    }
+
+
+    .container-first{
+        width: 100%;
+    }
+    .cards{
+        width: 100%;
+    }
+    .modal-container{
+        width: 86%;
+        height: 100%;
+    }
+    .modal{
+        width: 90%;
+    }
+    .modal-img{
+        width: 72%;
+    }
+    .modal-container-2{
+        width: 86%;
+        height: 100%;
+    }
+    .modal-2{
+        width: 90%;
+    }
+    .modal-img-2{
+        width: 72%;
+    }
+    .modal-container-3{
+        width: 86%;
+        height: 100%;
+    }
+    .modal-3{
+        width: 90%;
+    }
+    .modal-img-3{
+        width: 76%;        
+    }
+    .galeria{
+        width: 100%;
+        height: 80%;
+    }
+    .galeria-item{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .footer{
+        width: 100%;
+    }
+}
 
 
 
