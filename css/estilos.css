@@ -1558,7 +1558,7 @@ textarea {
     .modal-3{
         width: 500px;
         height: 70%;
-        padding: 0;
+        padding: 4px;
     }
     .modal-img{
         width: 100%;
