@@ -1442,6 +1442,7 @@ textarea {
         justify-content: center;
         left: 100%;
         transition: left 0.4s;
+        
     }
 
     .nav-toggle {
@@ -1517,7 +1518,7 @@ textarea {
     }
     .cards {
         font-family: 'Rubik', sans-serif;
-        width: 100%;
+        width: 90%;
         max-width: 1200px;
         margin: 0 auto;
         display: grid;
@@ -1581,7 +1582,7 @@ textarea {
 
 
     .galeria {
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -1609,6 +1610,7 @@ textarea {
     
     .nav-menu_visible {
         left: 0;
+        
     }
 
     header {
@@ -1617,7 +1619,7 @@ textarea {
     }
 
     .container-footer {
-        width: 100%;
+        width: 90%;
         padding: 10px;
     }
 

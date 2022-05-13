@@ -24,31 +24,27 @@
     <header>
         <nav class="nav">
             <div class="logo__1">
-        
+
                 <a href="index.html"><img src="imagenes/L.png" alt="L" class="logo-nav"></a>
-        
+
                 <button class="nav-toggle"><i class="fa-solid fa-bars"></i></button>
-        
-        
+
+
             </div>
-        
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="index.html/" id="nav"
-                        class="nav-menu-link">Inicio</a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-menu-item"><a href="index.html/" id="nav" class="nav-menu-link">Inicio</a>
                 </li>
-                <li class="nav-menu-item"><a href="#cards" id="nav"
-                        class="nav-menu-link">Skills</a>
+                <li class="nav-menu-item"><a href="#cards" id="nav" class="nav-menu-link">Skills</a>
                 </li>
-                <li class="nav-menu-item"><a href="#galeria" id="nav"
-                     class="nav-menu-link">Sobre
+                <li class="nav-menu-item"><a href="#galeria" id="nav" class="nav-menu-link">Sobre
                         Mi</a>
                 </li>
-                <li class="nav-menu-item"><a href="#contacto" id="nav"
-                        class="nav-menu-link">Contacto</a>
+                <li class="nav-menu-item"><a href="#contacto" id="nav" class="nav-menu-link">Contacto</a>
                 </li>
             </ul>
-        
-        
+
+
         </nav>
     </header>
     <section class="container-first" id="container-first">
@@ -66,66 +62,66 @@
         </div>
     </section>
     <div data-aos="fade-right" class="div-line"></div>
-   
+
     <!--- Cartas skills --->
 
- <section class="cards" id="skills">
-    <div data-aos="fade-up-right" class="card">
-        <div class="card__img">
-            <img src="imagenes/html.jpg" alt="html image">
+    <section class="cards" id="skills">
+        <div data-aos="fade-up-right" class="card">
+            <div class="card__img">
+                <img src="imagenes/html.jpg" alt="html image">
+            </div>
+
+            <div class="card__texts">
+                <h2 class="card__tittle"> Html5</h2>
+
+                <p class="card__p">Con el HTML me encargo de desarrollar una descripción sobre los contenidos que
+                    aparecen como textos y
+                    sobre su estructura, complementando dicho texto con diversos objetos (como fotografías, animaciones,
+                    etc).</p>
+            </div>
+            <button class="card__cta" id="open">Ver más</button>
+        </div>
+        <div data-aos="fade-down" class="card">
+            <div class="card__img">
+                <img src="imagenes/css.jpg" alt="css image">
+            </div>
+
+            <div class="card__texts">
+                <h2 class="card__tittle"> Css3</h2>
+                <p class="card__p">Lo uso especialmente en el diseño visual de un sitio web cuando las páginas se hallan
+                    escritas en
+                    HTML. </p>
+            </div>
+
+
+            <button class="card__cta" id="open_2">Ver más</button>
+
         </div>
 
-        <div class="card__texts">
-            <h2 class="card__tittle"> Html5</h2>
+        <div data-aos="fade-up-left" class="card">
+            <div class="card__img">
+                <img src="imagenes/javaS.jpg" alt="java script image">
+            </div>
 
-            <p class="card__p">Con el HTML me encargo de desarrollar una descripción sobre los contenidos que
-                aparecen como textos y
-                sobre su estructura, complementando dicho texto con diversos objetos (como fotografías, animaciones,
-                etc).</p>
+            <div class="card__texts">
+                <h2 class="card__tittle"> JavaScript</h2>
+
+                <p class="card__p"> JavaScript es el único lenguaje de programación que funciona en los navegadores de
+                    forma nativa
+                    (lenguaje
+                    interpretado sin necesidad de compilación).<br> Por tanto lo utilizó como complemento de HTML y CSS
+                    para
+                    crear páginas webs.</p>
+            </div>
+
+
+
+            <button class="card__cta" id="open_3">Ver más</button>
+
         </div>
-        <button class="card__cta" id="open">Ver más</button>
-    </div>
-    <div data-aos="fade-down" class="card">
-        <div class="card__img">
-            <img src="imagenes/css.jpg" alt="css image">
-        </div>
+    </section>
 
-        <div class="card__texts">
-            <h2 class="card__tittle"> Css3</h2>
-            <p class="card__p">Lo uso especialmente en el diseño visual de un sitio web cuando las páginas se hallan
-                escritas en
-                HTML. </p>
-        </div>
-
-
-        <button class="card__cta" id="open_2">Ver más</button>
-
-    </div>
-
-    <div data-aos="fade-up-left" class="card">
-        <div class="card__img">
-            <img src="imagenes/javaS.jpg" alt="java script image">
-        </div>
-
-        <div class="card__texts">
-            <h2 class="card__tittle"> JavaScript</h2>
-
-            <p class="card__p"> JavaScript es el único lenguaje de programación que funciona en los navegadores de
-                forma nativa
-                (lenguaje
-                interpretado sin necesidad de compilación).<br> Por tanto lo utilizó como complemento de HTML y CSS
-                para
-                crear páginas webs.</p>
-        </div>
-
-
-
-        <button class="card__cta" id="open_3">Ver más</button>
-
-    </div>
-</section>
-
-<div data-aos="fade-right" class="div-line-2"></div>
+    <div data-aos="fade-right" class="div-line-2"></div>
 
 
 
@@ -135,10 +131,10 @@
         <div class="modal">
             <h1>Ejemplo <i class="fa-brands fa-html5"></i></h1>
             <div class="modal-img">
-            <!---<img class="img-frag" src="imagenes/html-frag.png" alt="html fragmento">--->
+                <!---<img class="img-frag" src="imagenes/html-frag.png" alt="html fragmento">--->
             </div>
-            
-            
+
+
             <button class="close" id="close"> Cerrar </button>
         </div>
     </div>
@@ -148,7 +144,7 @@
             <h1>Ejemplo <i class="fa-brands fa-css3-alt"></i></h1>
             <div class="modal-img-2"></div>
             <!---<img class="img-frag" src="imagenes/css-frag.png" alt="fragmento css">--->
-           
+
 
             <button class="close_2" id="close_2"> Cerrar </button>
         </div>

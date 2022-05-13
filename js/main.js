@@ -44,14 +44,12 @@ const Menu = document.querySelector(".nav-menu");
 
 
 
-
 Toggle.addEventListener("click", () => {
     Menu.classList.toggle("nav-menu_visible");
 });
 document.addEventListener("click", () =>{
     Menu.classList.add("nav-menu");
 })
-
 
 
 /* Chances bars */
