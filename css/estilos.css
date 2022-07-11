@@ -728,7 +728,8 @@ textarea {
     }
 
     .nav-menu-item {
-        line-height: 70px;
+        line-height: 40px;
+        margin-top: 50px;
     }
 
     .nav-menu-link:hover,
@@ -748,4 +749,57 @@ textarea {
     .nav-toggle:focus:not(:focus-visible) {
         outline: none;
     }
+
+    .logo__1 img{
+        margin-top: 3px;
+        
+    }
+    .div-title {
+        width: 80%;
+        height: 200px;
+    }
+    .div-title h3 {
+        font-size: 12px;
+    }
+
+    .foto{
+        width: 200px;
+        height: 200px;
+    }
+
+    .modal{
+        padding: 0%;
+        width: 600px;
+    }
+
+    .modal-img{
+        margin-top: 20px;
+    }
+
+    .modal-2{
+        padding: 0%;
+        width: 600px;
+    }
+
+    .modal-img-2{
+        margin-top:  20px;
+    }
+
+    .galeria{
+        display: block;
+    }
+    .galeria-item{
+        width: 90%;
+        height: 200px;
+        margin: 5px auto;
+    }
+
+    .container-footer{
+        display: block;
+        padding: 0;
+    }
+    .div-contacto img{
+        margin: 5px;
+    }
+    
 }
