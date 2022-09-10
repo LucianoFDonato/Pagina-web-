@@ -39,17 +39,18 @@ close_3.addEventListener('click', () => {
 
 /* Navegation menu */
 
-const Toggle = document.querySelector(".nav-toggle");
-const Menu = document.querySelector(".nav-menu");
+const navToggle = document.querySelector(".nav-toggle");
+const navMenu = document.querySelector(".nav-menu");
 
+navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
 
-
-Toggle.addEventListener("click", () => {
-    Menu.classList.toggle("nav-menu_visible");
+    if (navMenu.classList.contains("nav-menu_visible")) {
+        navToggle.setAttribute("aria-label", "Cerrar menú");
+    } else {
+        navToggle.setAttribute("aria-label", "Abrir menú");
+    }
 });
-document.addEventListener("click", () =>{
-    Menu.classList.add("nav-menu");
-})
 
 
 /* Chances bars */
@@ -58,17 +59,14 @@ let btn = document.querySelector(".nav-toggle");
 let icon = btn.querySelector(".fa-bars");
 
 btn.addEventListener("click", () => {
-  if(icon.classList.contains("fa-bars")){
-    icon.classList.replace("fa-bars", "fa-xmark");
-  }
-  else{
-      icon.classList.replace("fa-xmark","fa-bars");
-  }
-  
+    if (icon.classList.contains("fa-bars")) {
+        icon.classList.replace("fa-bars", "fa-xmark");
+    } else {
+        icon.classList.replace("fa-xmark", "fa-bars");
+    }
+
 });
 
-$(document).ready(function() { 
+$(document).ready(function () {
     hljs.highlightAll();
 });
-
-              
