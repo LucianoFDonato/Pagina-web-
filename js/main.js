@@ -70,3 +70,4 @@ btn.addEventListener("click", () => {
 $(document).ready(function () {
     hljs.highlightAll();
 });
+
