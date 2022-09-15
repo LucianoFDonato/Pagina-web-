@@ -810,9 +810,9 @@ textarea {
     }
 
     .slide {
-        -webkit-animation: slide-rotate-ver-r-fwd 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-        animation: slide-rotate-ver-r-fwd 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-    }
+        -webkit-animation: slide-rotate-ver-r-fwd 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        animation: slide-rotate-ver-r-fwd 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
 
     @-webkit-keyframes slide-rotate-ver-r-fwd {
         40% {
