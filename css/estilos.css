@@ -996,59 +996,60 @@ textarea {
         margin-top: 40px;
         width: 188px;
         height: 192px;
+        align-items: center;
     }
 
     .foto {
-        width: 200px;
-        height: 200px;
+        width: 198px;
+        height: 201px;
         border-radius: 8em 8em;
         position: absolute;
-        left: 107px;
+        left: 88px;
         margin: 0;
         margin-top: 37px;
+        align-items: center;
     }
 
     .flag-img {
         top: -250px;
     }
 
-        .shadow {
-            -webkit-animation: shadow-pop-bl 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-            animation: shadow-pop-bl 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-}
+    .shadow {
+        -webkit-animation: shadow-pop-bl 9s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        animation: shadow-pop-bl 9s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    }
 
-        @-webkit-keyframes shadow-pop-bl {
-            0% {
-                -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-                box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-                -webkit-transform: translateX(0) translateY(0);
-                transform: translateX(0) translateY(0);
-            }
-
-            100% {
-                -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
-                box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
-                -webkit-transform: translateX(12px) translateY(-12px);
-                transform: translateX(12px) translateY(-12px);
-            }
-}
+    @-webkit-keyframes shadow-pop-bl {
+        0% {
+            -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
         }
 
-        @keyframes shadow-pop-bl {
-            0% {
-                -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-                box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-                -webkit-transform: translateX(0) translateY(0);
-                transform: translateX(0) translateY(0);
-            }
-
-            100% {
-                -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
-                box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
-                -webkit-transform: translateX(12px) translateY(-12px);
-                transform: translateX(12px) translateY(-12px);
-            }
+        100% {
+            -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            -webkit-transform: translateX(12px) translateY(-12px);
+            transform: translateX(12px) translateY(-12px);
         }
+    }
+
+    @keyframes shadow-pop-bl {
+        0% {
+            -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+        }
+
+        100% {
+            -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            -webkit-transform: translateX(12px) translateY(-12px);
+            transform: translateX(12px) translateY(-12px);
+        }
+    }
 
     .logo__1 img {
         margin-top: 3px;
@@ -1109,5 +1110,4 @@ textarea {
     .div-contacto img {
         margin: 5px;
     }
-
 }
