@@ -812,7 +812,7 @@ textarea {
     .slide {
         -webkit-animation: slide-rotate-ver-r-fwd 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
         animation: slide-rotate-ver-r-fwd 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-}
+    }
 
     @-webkit-keyframes slide-rotate-ver-r-fwd {
         40% {
@@ -992,34 +992,39 @@ textarea {
         margin: 30px;
         margin-top: -70px;
     }
-    .div-foto{
+
+    .div-foto {
         position: relative;
         align-items: center;
         top: 40px;
         width: 100%;
         height: 500px;
     }
+
     .foto-back {
         margin: 0;
         width: 200px;
         height: 205px;
         margin-top: 20px;
     }
-    .h1-foto{
+
+    .h1-foto {
         width: 350px;
         margin-left: 12px;
         margin-top: 20px;
     }
-    .flag-img{
+
+    .flag-img {
         width: 140px;
         height: 100px;
         margin-top: 35px;
     }
 
     .shadow {
-        -webkit-animation: shadow-pop-bl 3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation: shadow-pop-bl 3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-}
+        -webkit-animation: shadow-pop-bl 0.9s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        animation: shadow-pop-bl 0.9s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    }
+
 
     @-webkit-keyframes shadow-pop-bl {
         0% {
@@ -1032,8 +1037,8 @@ textarea {
         100% {
             -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
             box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
-            -webkit-transform: translateX(12px) translateY(-12px);
-            transform: translateX(12px) translateY(-12px);
+            -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
         }
     }
 
@@ -1048,10 +1053,11 @@ textarea {
         100% {
             -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
             box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
-            -webkit-transform: translateX(12px) translateY(-12px);
-            transform: translateX(12px) translateY(-12px);
+            -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
         }
     }
+
 
     .logo__1 img {
         margin-top: 3px;
@@ -1077,18 +1083,22 @@ textarea {
         font-size: 12px;
     }
 
-    .cards{
+    .cards {
         display: block;
     }
-    .modal-container{
+
+    .modal-container {
         height: 100%;
     }
-    .modal-container-2{
+
+    .modal-container-2 {
         height: 100%;
     }
-    .modal-container-3{
+
+    .modal-container-3 {
         height: 100%;
     }
+
     .modal {
         padding: 10px;
         width: 100%;
@@ -1100,11 +1110,13 @@ textarea {
         width: 95%;
         height: 40%;
     }
-    .close{
+
+    .close {
         position: absolute;
         bottom: 0%;
         left: 50%;
     }
+
     .modal-2 {
         padding: 10px;
         width: 100%;
@@ -1116,22 +1128,26 @@ textarea {
         width: 95%;
         height: 40%;
     }
-    .close_2{
+
+    .close_2 {
         position: absolute;
         bottom: 2%;
         left: 50%;
     }
-    .modal-3{
+
+    .modal-3 {
         padding: 10px;
         width: 100%;
         position: relative;
     }
-    .modal-img-3{
+
+    .modal-img-3 {
         margin-top: 20%;
         width: 95%;
         height: 40%;
     }
-    .close_3{
+
+    .close_3 {
         position: absolute;
         bottom: 0%;
         left: 50%;
