@@ -974,8 +974,7 @@ textarea {
 
     .nav-toggle {
         display: block;
-        left: 15%;
-        margin-right: 10px;
+        margin-left:10px;
     }
 
     .nav-menu_visible {
