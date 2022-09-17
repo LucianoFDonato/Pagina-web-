@@ -1111,9 +1111,7 @@ textarea {
     }
 
     .close {
-        position: absolute;
-        bottom: 0%;
-        left: 50%;
+        
     }
 
     .modal-2 {
@@ -1123,15 +1121,13 @@ textarea {
     }
 
     .modal-img-2 {
-        margin-top: 20%;
+        margin-top: 30px;
         width: 95%;
         height: 40%;
     }
 
     .close_2 {
-        position: absolute;
-        bottom: 2%;
-        left: 50%;
+        
     }
 
     .modal-3 {
