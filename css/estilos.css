@@ -1017,8 +1017,8 @@ textarea {
     }
 
     .shadow {
-        -webkit-animation: shadow-pop-bl 12s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation: shadow-pop-bl 12s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        -webkit-animation: shadow-pop-bl 3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        animation: shadow-pop-bl 3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
     @-webkit-keyframes shadow-pop-bl {
@@ -1119,7 +1119,7 @@ textarea {
     .close_2{
         position: absolute;
         bottom: 2%;
-        left: 35%;
+        left: 50%;
     }
     .modal-3{
         padding: 10px;
@@ -1134,7 +1134,7 @@ textarea {
     .close_3{
         position: absolute;
         bottom: 0%;
-        left: 35%;
+        left: 50%;
     }
 
 
