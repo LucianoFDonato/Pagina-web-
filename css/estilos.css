@@ -809,40 +809,41 @@ textarea {
         text-align: center;
     }
 
-    .slide {
-        -webkit-animation: slide-rotate-ver-r-fwd 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-        animation: slide-rotate-ver-r-fwd 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    .shadow {
+        -webkit-animation: shadow-pop-bl 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        animation: shadow-pop-bl 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     }
 
-    @-webkit-keyframes slide-rotate-ver-r-fwd {
-        40% {
-            -webkit-transform: translateX(0) translateZ(0) rotateY(0);
-            transform: translateX(0) translateZ(0) rotateY(0);
-            -webkit-transform-origin: center left;
-            transform-origin: center left;
+
+    @-webkit-keyframes shadow-pop-bl {
+        0% {
+            -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
         }
 
         100% {
-            -webkit-transform: translateX(150px) translateZ(130px) rotateY(-90deg);
-            transform: translateX(150px) translateZ(130px) rotateY(-90deg);
-            -webkit-transform-origin: center left;
-            transform-origin: center left;
+            -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
         }
     }
 
-    @keyframes slide-rotate-ver-r-fwd {
-        40% {
-            -webkit-transform: translateX(0) translateZ(0) rotateY(0);
-            transform: translateX(0) translateZ(0) rotateY(0);
-            -webkit-transform-origin: center left;
-            transform-origin: center left;
+    @keyframes shadow-pop-bl {
+        0% {
+            -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
         }
 
         100% {
-            -webkit-transform: translateX(150px) translateZ(130px) rotateY(-90deg);
-            transform: translateX(150px) translateZ(130px) rotateY(-90deg);
-            -webkit-transform-origin: center left;
-            transform-origin: center left;
+            -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
         }
     }
 
@@ -1004,19 +1005,22 @@ textarea {
         margin: 0;
         width: 200px;
         height: 205px;
-        margin-top: 20px;
     }
 
     .h1-foto {
-        width: 350px;
-        margin-left: 12px;
-        margin-top: 20px;
+        position: relative;
+        font-size: 28px;
+        width: 320px;
+        top: 30px;
+        bottom: 30px;
+        margin: 0;
     }
 
     .flag-img {
         width: 140px;
         height: 100px;
-        margin-top: 35px;
+        position: relative;
+        top: 75px;
     }
 
     .shadow {
@@ -1067,14 +1071,17 @@ textarea {
     .div-fondo {
         position: relative;
         width: 100%;
+        margin: 0;    
+        padding: 10px;   
     }
 
     .div-title {
-        width: 100%;
+        width: 96%;
         height: 200px;
-        position: absolute;
-        bottom: 0;
+        position: relative;
+        align-items: center;
         padding: 4px;
+        bottom: 50px;
 
     }
 
@@ -1082,8 +1089,23 @@ textarea {
         font-size: 12px;
     }
 
+    .div-line{
+        margin-top: 150px;
+        width: 90%;
+    }
+    .div-line-2{
+       margin-top: 0px;
+    }
+    .div-line-3{
+        margin: 150px 20px 150px;
+    }
+    
     .cards {
         display: block;
+        margin-top: 0;
+    }
+    .card{
+        margin-top: 20px;
     }
 
     .modal-container {
@@ -1109,11 +1131,6 @@ textarea {
         width: 95%;
         height: 40%;
     }
-
-    .close {
-        
-    }
-
     .modal-2 {
         padding: 10px;
         width: 100%;
@@ -1124,10 +1141,6 @@ textarea {
         margin-top: 30px;
         width: 95%;
         height: 40%;
-    }
-
-    .close_2 {
-        
     }
 
     .modal-3 {
@@ -1141,11 +1154,39 @@ textarea {
         width: 95%;
         height: 40%;
     }
-
+    .div-close{
+        width: 100%;
+        position: relative;
+        
+    }
+    
+    .close {
+        position: relative;
+        align-items: center;
+        top: 90%;
+        
+    }
+    .div-close-2{
+        width: 100%;
+        position: relative;
+        align-items: center;
+    }
+    
+    .close_2 {
+        position: relative;
+        align-items: center;
+        top: 90%;
+    }
+    .div-close-3{
+        width: 100%;
+        position: relative;
+        align-items: center;
+    }
+    
     .close_3 {
-        position: absolute;
-        bottom: 0%;
-        left: 50%;
+        position: relative;
+        align-items: center;
+        top: 90%;
     }
 
 
@@ -1159,6 +1200,11 @@ textarea {
         width: 90%;
         height: 200px;
         margin: 5px auto;
+        position: relative;
+    }
+    .galeria-item img{
+        position: relative;
+        align-items: center;
     }
 
     .container-footer {
