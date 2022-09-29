@@ -68,6 +68,7 @@ header {
     -ms-border-radius: 2em;
     -o-border-radius: 2em;
 }
+
 .nav-menu-link:focus {
     outline: 0;
 }
@@ -229,7 +230,7 @@ header {
     width: 290px;
     height: 270px;
     background: url(../imagenes/luciano.JPG);
-    background-size: cover; 
+    background-size: cover;
     border-radius: 9em 9em;
     margin-top: 60px;
 }
@@ -814,7 +815,9 @@ textarea {
 
 
 /** Section responsive **/
-@media only screen and (min-width: 768px) and (max-width: 991px){
+
+@media only screen and (max-width: 768px) {
+
     /*** Nav ***/
     .header {
         height: 60px;
@@ -866,39 +869,44 @@ textarea {
     .nav-toggle:focus:not(:focus-visible) {
         outline: none;
     }
-}
-.div-title{
-    width: 90%;
-}
 
-/**Section Card**/
-.cards {
-    display: block;
-    margin-top: 0;
-    width: 70%;
-    padding: 10px;
-}
-.card{
-    margin-top: 20px;
-}
-.modal{
-    width: 90%;
-}
-.modal-2{
-    width: 90%;
-}
-.modal-3{
-    width: 90%;
-}
+    .div-title {
+        width: 90%;
+    }
 
-/**Section Galeria**/
+    /**Section Card**/
+    .cards {
+        display: block;
+        margin-top: 0;
+        width: 70%;
+        padding: 10px;
+    }
 
-.galeria-item {
-    width: 90%;
-    height: 250px;
-    margin: 5px auto;
-    position: relative;
-    top: 50px;
+    .card {
+        margin-top: 20px;
+    }
+
+    .modal {
+        width: 90%;
+    }
+
+    .modal-2 {
+        width: 90%;
+    }
+
+    .modal-3 {
+        width: 90%;
+    }
+
+    /**Section Galeria**/
+
+    .galeria-item {
+        width: 90%;
+        height: 250px;
+        margin: 5px auto;
+        position: relative;
+        top: 50px;
+    }
 }
 
 /** Section responsive second**/
@@ -1169,7 +1177,7 @@ textarea {
         top: 90%;
     }
 
-/** Section Galeria **/
+    /** Section Galeria **/
 
 
     .galeria {
