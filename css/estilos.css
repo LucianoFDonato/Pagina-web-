@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,300&family=Rubik&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -53,7 +52,7 @@ header {
 }
 
 .nav-menu-link {
-    color: rgb(74, 10, 134);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 2em;
     cursor: pointer;
@@ -80,7 +79,7 @@ header {
 
 .nav-menu-link:hover {
     background: linear-gradient(90deg, rgb(7, 2, 100) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
-    box-shadow: 5px 10px;
+    box-shadow: 2px 5px;
 }
 
 
@@ -815,7 +814,94 @@ textarea {
 
 
 /** Section responsive **/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    /*** Nav ***/
+    .header {
+        height: 60px;
+    }
 
+    .logo {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .nav-menu-item {
+        line-height: 40px;
+        margin-top: 50px;
+    }
+
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: #83c5f7;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+    }
+
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+    }
+}
+.div-title{
+    width: 90%;
+}
+
+/**Section Card**/
+.cards {
+    display: block;
+    margin-top: 0;
+    width: 70%;
+    padding: 10px;
+}
+.card{
+    margin-top: 20px;
+}
+.modal{
+    width: 90%;
+}
+.modal-2{
+    width: 90%;
+}
+.modal-3{
+    width: 90%;
+}
+
+/**Section Galeria**/
+
+.galeria-item {
+    width: 90%;
+    height: 250px;
+    margin: 5px auto;
+    position: relative;
+    top: 50px;
+}
+
+/** Section responsive second**/
 @media screen and (max-width: 468px) {
     body {
         padding-top: 70px;
@@ -1083,7 +1169,7 @@ textarea {
         top: 90%;
     }
 
-
+/** Section Galeria **/
 
 
     .galeria {
