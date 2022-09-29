@@ -53,9 +53,9 @@ header {
 }
 
 .nav-menu-link {
-    color: rgb(255, 255, 255);
+    color: rgb(74, 10, 134);
     background-color: transparent;
-    border-radius: 1em;
+    border-radius: 2em;
     cursor: pointer;
     margin: 0 20px;
     padding: .5rem .8rem;
@@ -64,6 +64,23 @@ header {
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 3px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+.nav-menu-link:focus {
+    outline: 0;
+}
+
+.nav-menu-link {
+    border-color: rgb(0, 86, 136);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.nav-menu-link:hover {
+    background: linear-gradient(90deg, rgb(7, 2, 100) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+    box-shadow: 5px 10px;
 }
 
 
@@ -211,7 +228,9 @@ header {
 
 .foto {
     width: 290px;
-    height: 290px;
+    height: 270px;
+    background: url(../imagenes/luciano.JPG);
+    background-size: cover; 
     border-radius: 9em 9em;
     margin-top: 60px;
 }
@@ -556,7 +575,7 @@ header {
 .close_2 {
     position: relative;
     align-items: center;
-    top: 10%;
+    top: 40%;
 }
 
 .div-close-3 {
@@ -609,7 +628,7 @@ header {
     flex-direction: row-reverse;
     box-shadow: 0 0 32px -16px rgb(255, 255, 255);
     border-radius: 1em;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .galeria-item:nth-of-type(1) {
@@ -975,6 +994,7 @@ textarea {
     }
 
     .card {
+        width: 100%;
         margin-top: 20px;
     }
 
