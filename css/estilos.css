@@ -873,42 +873,20 @@ textarea {
     .div-title {
         width: 90%;
     }
-
-    /**Section Card**/
     .cards {
+        width: 100%;
         display: block;
         margin-top: 0;
-        width: 70%;
-        padding: 10px;
+        position: relative;
+        
     }
-
-    .card {
+    .card{
+        width: 70%;   
+        margin-left: 15%;
+        position: relative;
         margin-top: 20px;
     }
-
-    .modal {
-        width: 90%;
-    }
-
-    .modal-2 {
-        width: 90%;
-    }
-
-    .modal-3 {
-        width: 90%;
-    }
-
-    /**Section Galeria**/
-
-    .galeria-item {
-        width: 90%;
-        height: 250px;
-        margin: 5px auto;
-        position: relative;
-        top: 50px;
-    }
 }
-
 /** Section responsive second**/
 @media screen and (max-width: 468px) {
     body {
@@ -1123,7 +1101,7 @@ textarea {
     }
 
     .modal-img-2 {
-        margin-top: 30px;
+        margin-top: 20%;
         width: 95%;
         height: 40%;
     }
