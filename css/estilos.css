@@ -798,7 +798,7 @@ textarea {
 .btn {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: rgb(49, 6, 90);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     width: 110px;
     height: 50px;
@@ -812,13 +812,13 @@ textarea {
 }
 
 .btn {
-    border-color: rgb(0, 73, 116);
+    border-color: rgb(6, 47, 71);
     transition: box-shadow 0.2s ease-in-out;
 }
 
 .btn:hover {
-    background-color: rgb(112, 213, 255);
-    box-shadow: 5px 10px;
+    background: linear-gradient(90deg, rgb(7, 2, 100) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+    box-shadow: 2px 5px;
 }
 
 .how-i-am{
@@ -898,7 +898,7 @@ textarea {
         
     }
     .card{
-        width: 70%;   
+        width: 60%;   
         margin-left: 5%;
         position: relative;
         margin-top: 20px;
@@ -1052,16 +1052,21 @@ textarea {
     }
 
     .div-title {
-        width: 96%;
-        height: 200px;
+        width: 98%;
+        height: 220px;
         position: relative;
         align-items: center;
         padding: 4px;
         top: 30px;
     }
-
+    .div-title h2{
+        position: relative;
+        top: -25px;
+    }
     .div-title h3 {
         font-size: 12px;
+        position: relative;
+        top: -35px;
     }
 
     .div-line {
@@ -1078,8 +1083,10 @@ textarea {
     }
 
     .cards {
+        width: 90%;
         display: block;
         margin-top: 0;
+        margin: 0;
     }
 
     .card {
@@ -1100,7 +1107,7 @@ textarea {
     }
 
     .modal {
-        padding: 10px;
+        padding: 0 4px;
         width: 100%;
         position: relative;
     }
@@ -1112,7 +1119,7 @@ textarea {
     }
 
     .modal-2 {
-        padding: 10px;
+        padding: 0 4px;
         width: 100%;
         position: relative;
     }
@@ -1124,7 +1131,7 @@ textarea {
     }
 
     .modal-3 {
-        padding: 10px;
+        padding: 0 4px;
         width: 100%;
         position: relative;
     }
