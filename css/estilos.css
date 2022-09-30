@@ -230,9 +230,12 @@ header {
     width: 290px;
     height: 270px;
     background: url(../imagenes/luciano.JPG);
-    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 9em 9em;
     margin-top: 60px;
+    display: inline-block;
 }
 
 /*** container flag***/
@@ -258,11 +261,11 @@ header {
 
 .div-title {
     width: 50%;
-    height: 20%;
+    height: 25%;
     border-radius: 1em;
     display: grid;
     margin: 0 auto;
-    top: 95px;
+    top: 90px;
     position: relative;
     box-shadow: 0 0 32px -16px rgb(255, 255, 255);
 }
@@ -272,19 +275,25 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -20px;
+    position: relative;
+    top: -10px;
 }
 
 .div-title h2 {
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -15px;
 }
 
 .div-title h3 {
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -15px;
 }
 
 .signo-ab {
@@ -812,6 +821,14 @@ textarea {
     box-shadow: 5px 10px;
 }
 
+.how-i-am{
+    font-size: 10px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 55px;
+    
+}
 
 
 /** Section responsive **/
@@ -882,7 +899,7 @@ textarea {
     }
     .card{
         width: 70%;   
-        margin-left: 15%;
+        margin-left: 5%;
         position: relative;
         margin-top: 20px;
     }
