@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 /*** Navegation ***/
 
 header {
@@ -40,7 +44,7 @@ header {
 }
 
 .nav-menu-item {
-    
+
     line-height: 80px;
     text-transform: uppercase;
     width: max-content;
@@ -158,9 +162,11 @@ header {
     background-size: cover;
     margin-top: 83px;
     border-radius: 1em;
+    
 }
 
 .div-fondo {
+    
     width: 100%;
     height: 100%;
     text-align: center;
@@ -225,13 +231,13 @@ header {
 .foto {
     width: 290px;
     height: 270px;
-    background: url(../imagenes/luciano.JPG);
-    background-position: center;
+    background: url(../imagenes/lu2.JPG);
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 9em 9em;
-    margin-top: 60px;
+    background-size: cover;
+    margin-top: 30px;
     display: inline-block;
+
 }
 
 /*** container flag***/
@@ -817,7 +823,7 @@ textarea {
     box-shadow: 2px 5px;
 }
 
-.how-i-am{
+.how-i-am {
     font-family: 'Courier New', Courier, monospace;
     font-style: oblique;
     font-size: 10px;
@@ -825,7 +831,7 @@ textarea {
     height: 10px;
     position: relative;
     top: 55px;
-    
+
 }
 
 
@@ -888,20 +894,23 @@ textarea {
     .div-title {
         width: 90%;
     }
+
     .cards {
         width: 100%;
         display: block;
         margin-top: 0;
         position: relative;
-        
+
     }
-    .card{
-        width: 60%;   
+
+    .card {
+        width: 60%;
         margin-left: 5%;
         position: relative;
         margin-top: 20px;
     }
 }
+
 /** Section responsive second**/
 @media screen and (max-width: 468px) {
     body {
@@ -918,7 +927,8 @@ textarea {
         padding: 0 20px;
         line-height: 60px;
     }
-    .logo-nav{
+
+    .logo-nav {
         left: 20px;
     }
 
@@ -981,6 +991,7 @@ textarea {
         margin: 0;
         width: 200px;
         height: 205px;
+        margin-top: 20px;
         position: relative;
         top: 10px;
     }
@@ -997,7 +1008,7 @@ textarea {
         width: 140px;
         height: 100px;
         position: relative;
-        top: 105px;
+        top: 90px;
     }
 
     .shadow {
@@ -1060,10 +1071,12 @@ textarea {
         padding: 4px;
         top: 30px;
     }
-    .div-title h2{
+
+    .div-title h2 {
         position: relative;
         top: -25px;
     }
+
     .div-title h3 {
         font-size: 12px;
         position: relative;
