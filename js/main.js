@@ -1,5 +1,18 @@
-/*modal 1*/
-const open = document.getElementById('open');
+/*modal-1*/
+const open1 = document.getElementById('open_1');
+const modal_container_1 = document.getElementById('modal-container-1');
+const close1 = document.getElementById('close-1');
+
+open1.addEventListener('click', () => {
+    modal_container_1.classList.add('show');
+});
+
+close1.addEventListener('click', () => {
+    modal_container_1.classList.remove('show');
+});
+
+/*modal*/
+const open = document.getElementById('open.1');
 const modal_container = document.getElementById('modal-container');
 const close = document.getElementById('close');
 
