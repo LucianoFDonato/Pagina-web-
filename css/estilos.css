@@ -234,10 +234,10 @@ header {
 .foto {
     width: 290px;
     height: 270px;
-    background: url(../imagenes/lu.jpg);
-    background-position: top;
+    background: url(../imagenes/lu-2.JPG);
+    background-position: left center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 97%;
     margin-top: 30px;
     display: inline-block;
     
