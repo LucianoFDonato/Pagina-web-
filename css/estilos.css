@@ -234,7 +234,7 @@ header {
 .foto {
     width: 290px;
     height: 270px;
-    background: url(../imagenes/lu2.JPG);
+    background: url(../imagenes/luciano.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1076,24 +1076,23 @@ textarea {
         margin: 0;
         width: 200px;
         height: 205px;
-        margin-top: 20px;
         position: relative;
-        top: 10px;
+        top: 5px;
     }
 
-    .h1-foto {
+    .div-foto h1 {
+        width: 90%;
         position: relative;
-        font-size: 22px;
-        top: 100px;
-        bottom: 30px;
-        margin: 0;
+        font-size: 18px;
+        top: 40px;
+        margin: 0 auto;
     }
 
     .flag-img {
         width: 140px;
         height: 100px;
         position: relative;
-        top: 90px;
+        top: 70px;
     }
 
     .shadow {
@@ -1154,7 +1153,11 @@ textarea {
         position: relative;
         align-items: center;
         padding: 4px;
-        top: 30px;
+        top: -50px;
+    }
+    .open_1{
+        position: relative;
+        top: 40px;
     }
 
     .div-title h2 {
@@ -1163,9 +1166,9 @@ textarea {
     }
 
     .div-title h3 {
-        font-size: 12px;
+        font-size: 16px;
         position: relative;
-        top: -35px;
+        top: -30px;
     }
 
     .div-line {
@@ -1193,6 +1196,10 @@ textarea {
         margin-top: 20px;
     }
 
+    .modal-container-1 {
+        height: 100%;
+    }
+
     .modal-container {
         height: 100%;
     }
@@ -1204,6 +1211,27 @@ textarea {
     .modal-container-3 {
         height: 100%;
     }
+
+    .modal-1 {
+        padding: 0 4px;
+        width: 100%;
+        position: relative;
+    }
+
+    .modal-h1 {
+        font-size: 10px;
+        margin-top: 5%;
+        width: 95%;
+        height: 50%;
+    }
+    .modal-h1 h1{
+        margin-top: 20px;
+    }
+    .close-1{
+        position: relative;
+        top: 30px;
+    }
+    
 
     .modal {
         padding: 0 4px;
