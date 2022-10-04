@@ -787,7 +787,7 @@ header {
 
 .contactarme {
     width: 130px;
-    color: rgb(49, 6, 90);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 1em;
     cursor: pointer;
@@ -814,7 +814,7 @@ header {
 }
 
 .contactarme:hover {
-    background-color: rgb(112, 213, 255);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     box-shadow: 5px 10px;
 }
 
@@ -828,7 +828,7 @@ form {
 }
 
 form p {
-    color: #fff;
+    color: rgb(255,255,255);
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -852,7 +852,7 @@ textarea {
 
 .form-h1 {
     width: 230px;
-    color: rgb(49, 6, 90);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 1em;
     cursor: pointer;
@@ -878,7 +878,7 @@ textarea {
 }
 
 .form-h1:hover {
-    background-color: rgb(112, 213, 255);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
     box-shadow: 5px 10px;
 }
 
