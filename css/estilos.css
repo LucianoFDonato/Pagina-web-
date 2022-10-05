@@ -923,6 +923,84 @@ textarea {
 
 
 /* Section Responsive */
+@media screen and (max-width: 1024px) {
+    /*** Nav ***/
+    .header {
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(83, 83, 83, 1) 28%, rgb(1, 121, 145) 100%);
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .nav-menu-item {
+        line-height: 40px;
+        margin-top: 50px;
+    }
+
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: #83c5f7;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+    }
+
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+    }
+    .foto{
+        margin-top: 12px;
+    }
+    .div-foto h1{
+        width: 340px;
+        height: 57px;
+    }
+    .div-title {
+        width: 90%;
+    }
+
+    .cards {
+        width: 100%;
+        display: block;
+        margin-top: 0 auto;
+        position: relative;
+        left: 15%;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 5%;
+        position: relative;
+        margin-top: 20px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -977,7 +1055,13 @@ textarea {
     .nav-toggle:focus:not(:focus-visible) {
         outline: none;
     }
-
+    .foto{
+        margin-top: 12px;
+    }
+    .div-foto h1{
+        width: 340px;
+        height: 57px;
+    }
     .div-title {
         width: 90%;
     }
@@ -985,9 +1069,9 @@ textarea {
     .cards {
         width: 100%;
         display: block;
-        margin-top: 0;
+        margin-top: 0 auto;
         position: relative;
-
+        left: 15%;
     }
 
     .card {
