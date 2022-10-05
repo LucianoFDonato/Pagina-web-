@@ -1,4 +1,4 @@
-/*modal-1*/
+/* modal-1 */
 const open1 = document.getElementById('open_1');
 const modal_container_1 = document.getElementById('modal-container-1');
 const close1 = document.getElementById('close-1');
@@ -11,7 +11,7 @@ close1.addEventListener('click', () => {
     modal_container_1.classList.remove('show');
 });
 
-/*modal*/
+/* modal */
 const open = document.getElementById('open.1');
 const modal_container = document.getElementById('modal-container');
 const close = document.getElementById('close');
@@ -24,7 +24,7 @@ close.addEventListener('click', () => {
     modal_container.classList.remove('show');
 });
 
-/*modal 2*/
+/* modal 2 */
 const open_2 = document.getElementById('open_2');
 const modal_container_2 = document.getElementById('modal-container-2');
 const close_2 = document.getElementById('close_2');
@@ -37,7 +37,7 @@ close_2.addEventListener('click', () => {
     modal_container_2.classList.remove('show');
 });
 
-/*modal 3*/
+/* modal 3 */
 const open_3 = document.getElementById('open_3');
 const modal_container_3 = document.getElementById('modal-container-3');
 const close_3 = document.getElementById('close_3');
